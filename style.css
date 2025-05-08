@@ -24,7 +24,7 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-.wrapper {
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
 }
 
 
-.user {
+.right{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -124,11 +124,11 @@ body {
     grid-gap: 20px;
 }
 
-.tracking {
+.card {
     position: relative;
 }
 
-.tracking-background {
+.card-background {
     background-repeat: no-repeat;
     background-position: right;
     width: 100%;
@@ -136,37 +136,37 @@ body {
     border-radius: 10px;
 }
 
-.tracking-background.background-0 {
+.card-background.background-0 {
     background-image: url("../images/icon-work.svg");
     background-color: var(--Light-red-work);
 }
 
-.tracking-background.background-1 {
+.card-background.background-1 {
     background-image: url("../images/icon-play.svg");
     background-color: var(--Soft-blue-play);
 }
 
-.tracking-background.background-2 {
+.card-background.background-2 {
     background-image: url("../images/icon-study.svg");
     background-color: var(--Light-red-study);
 }
 
-.tracking-background.background-3 {
+.card-background.background-3 {
     background-image: url("../images/icon-exercise.svg");
     background-color: var(--Lime-green-exercise);
 }
 
-.tracking-background.background-4 {
+.card-background.background-4 {
     background-image: url("../images/icon-social.svg");
     background-color: var(--Violet-social);
 }
 
-.tracking-background.background-5 {
+.card-background.background-5 {
     background-image: url("../images/icon-self-care.svg");
     background-color: var(--Soft-orange-self-care);
 }
 
-.tracking-body {
+.card-body {
     position: absolute;
     top: 51px;
     width: 100%;
@@ -175,33 +175,35 @@ body {
     background-color: var(--Dark-blue);
 }
 
-.tracking-body:hover {
+.card-body:hover {
     cursor: pointer;
     background-color: var(--Desaturated-blue);
 }
 
-.tracking-title {
+.card-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.tracking-title p {
+.card-title p {
     color: white;
 }
 
-.tracking-hrs {
+.card-hrs {
     margin-top: 38px;
     margin-bottom: 15px;
     font-size: 32px;
+    color: white;
 }
-
-@media (min-device-height: 667px) and (min-device-width: 375px) and 
-       (-webkit-min-device-pixel-ratio: 3) {
-  .gfg-div {
-    width: 400px;
-    height: 400px;
-    background-color: darkgoldenrod;
-    color: black;
-  }
-};
+@media screen and (max-width:375px) {
+    .main{
+    display: flex;
+    flex-wrap: column;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--Very-dark-blue);
+    }
+}
