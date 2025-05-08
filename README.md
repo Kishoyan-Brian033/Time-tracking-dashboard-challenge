@@ -30,10 +30,9 @@ Users should be able to:
 
 ![](./images/screnshot.png)
 
-### Links
+### Link
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Vercel Live Link - to be added](#)
+- Live Site URL: [Vercel Live Link  ](https://time-tracking-dashboard-challenge-teal.vercel.app/)
 
 ## My process
 
