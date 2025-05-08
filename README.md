@@ -2,7 +2,8 @@
 
 This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-- Live Site URL: [Vercel Live Link  ](https://time-tracking-dashboard-challenge-teal.vercel.app/)
+
+Live Site URL: [Vercel Live Link  ](https://time-tracking-dashboard-challenge-teal.vercel.app/)
 
 ## Table of contents
 
